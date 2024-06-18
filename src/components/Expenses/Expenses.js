@@ -10,8 +10,6 @@ const Expenses = (props) => {
     const changeFilterHandler = (enteredYear) => {
 
         setFilteredYear(enteredYear)
-        console.log('In Expenses.js')
-        console.log(enteredYear)
     }
 
     props.expenses.map((expense) => {
